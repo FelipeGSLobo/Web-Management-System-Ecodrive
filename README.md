@@ -17,3 +17,5 @@ yarn build
 ```sh
 npx vercel ./dist --prod
 ```
+
+> Lembre de criar sua conta em `https://console.firebase.google.com/` e fazer login no terminal antes de fazer o deploy!
