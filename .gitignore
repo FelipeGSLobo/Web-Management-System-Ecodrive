@@ -1,24 +1,37 @@
-# Logs
-logs
-*.log
+# Node.js
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Vite
+dist/
+.env
+.env.*.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# VSCode settings (opcional, se estiver usando VSCode)
+.vscode/
+
+# Firebase CLI
+.firebase/
+.firebaserc
+
+# Yarn cache
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Testing
+coverage/
+
+# macOS / Linux / Windows arquivos ocultos
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+
+# Arquivos sensíveis (recomendado manter fora do git)
+*.local
+firebase-debug.log
+firebase-debug.*

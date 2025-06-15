@@ -15,7 +15,8 @@ yarn build
 ## Como fazer o deply do projeto?
 
 ```sh
-npx vercel ./dist --prod
+firebase init
+firebase deploy
 ```
 
 > Lembre de criar sua conta em `https://console.firebase.google.com/` e fazer login no terminal antes de fazer o deploy!
