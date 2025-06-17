@@ -13,7 +13,6 @@ const AppRoutes = () => {
         <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/register" element={!user ? <Register /> : <Navigate to={"/"} />}/>
-
         </Routes>
     )
 };

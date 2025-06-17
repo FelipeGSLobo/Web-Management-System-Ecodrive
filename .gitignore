@@ -12,10 +12,6 @@ dist/
 # VSCode settings (opcional, se estiver usando VSCode)
 .vscode/
 
-# Firebase CLI
-.firebase/
-.firebaserc
-
 # Yarn cache
 .yarn/*
 !.yarn/cache

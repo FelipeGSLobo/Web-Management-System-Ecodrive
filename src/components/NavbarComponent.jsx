@@ -8,7 +8,7 @@ const NavbarComponent = () => {
             <Navbar>
                 <Container>
                     <Navbar.Brand href="./../.../index.html">EcoDrive</Navbar.Brand>
-                    <NavLink to={"/register"}>Opa</NavLink>
+                    <NavLink to={"/register"}>Resgistre-se</NavLink>
                 </Container>
             </Navbar>
         </Container>
