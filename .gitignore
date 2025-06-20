@@ -29,5 +29,8 @@ Thumbs.db
 
 # Arquivos sensíveis (recomendado manter fora do git)
 *.local
+
+# Firebase CLI (cache e dados locais)
+.firebase/
 firebase-debug.log
 firebase-debug.*
